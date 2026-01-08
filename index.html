@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sabella | Math & CS Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background: #f5f7fa;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+    }
+    section {
+      margin-top: 3rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: center;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .icon {
+      font-size: 2.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Sabella</h1>
+  <p style="text-align:center;">Math & Computer Science Portfolio</p>
+
+  <section>
+    <h2>🧮 Math</h2>
+    <div class="grid">
+      <a class="card" href="https://example.com" target="_blank">
+        <div class="icon">📄</div>
+        <h3>Proofs & Writeups</h3>
+        <p>Selected math work</p>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2>💻 Computer Science</h2>
+    <div class="grid">
+      <a class="card" href="https://your-game-link.com" target="_blank">
+        <div class="icon">🎮</div>
+        <h3>Web Game</h3>
+        <p>JavaScript browser game</p>
+      </a>
+
+      <a class="card" href="https://github.com/sabellla" target="_blank">
+        <div class="icon">📦</div>
+        <h3>GitHub Projects</h3>
+        <p>Code repositories</p>
+      </a>
+    </div>
+  </section>
+
+</body>
+</html>
